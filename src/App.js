@@ -45,7 +45,7 @@ class App extends Component {
   }
 
   changeTab(e) {
-    this.setState({activeTab: e.target.value});
+    this.setState({ activeTab: e.target.value });
   }
 
   updateStateMembers(updatedMembers) {
